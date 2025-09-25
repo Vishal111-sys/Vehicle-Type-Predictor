@@ -1,6 +1,11 @@
 
 import streamlit as st
 import pandas as pd
+# app.py file ke shuru mein yeh imports zaroori hain
+from sklearn.pipeline import Pipeline
+from sklearn.compose import ColumnTransformer
+from sklearn.preprocessing import OneHotEncoder
+from xgboost import XGBClassifier # <--- Yeh line bahut zaroori hai!
 import joblib
 import numpy as np
 
