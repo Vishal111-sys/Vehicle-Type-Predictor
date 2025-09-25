@@ -1,7 +1,6 @@
-# Simplified, stable list to avoid installation conflicts
 streamlit
 pandas
 numpy
 joblib
-scikit-learn==1.2.2  # Using a slightly older, very stable version
-xgboost==1.7.5       # Using a widely compatible version
+scikit-learn==1.2.2
+xgboost==1.7.5
